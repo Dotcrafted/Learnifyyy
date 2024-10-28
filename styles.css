@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #133E87;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
+    margin-right: 1px; /* Space between logo image and text */
+}
+
+.logo-text {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5E8DA;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.content-section {
+    max-width: 800px;
+    text-align: center;
+    background-color: #f3f2f1;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-section h1 {
+    font-size: 2em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px; /* Space below the title */
+    font-family: 'Georgia', serif;
+}
+
+.content-section h3 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px; /* Space below the subtitle */
+}
+
+.content-section p {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 25px; /* Space below the paragraph */
+}
+
+.content-section button {
+    background-color: #133E87;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #133E87;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Courses Section */
+.courses-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #E5E8DA;
+}
+
+.courses-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-box {
+    background-color: #f3f2f1;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ccc;
+}
+
+.course-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.course-box p {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.course-box button {
+    background-color: #133E87;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.course-box button:hover {
+    background-color: #0a2861;
+}
+.course-box h3 {
+    font-size: 1.2em; /* Adjust the size as needed */
+    color: #333; /* Choose a color that fits your theme */
+    margin: 10px 0; /* Space above and below the course name */
+}
+.content-section {
+    max-width: 800px;
+    text-align: center;
+    background-color: #f3f2f1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contact-box {
+    background-color: #f3f2f1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-icon {
+    font-size: 2em; /* Adjust as needed */
+}
+
+.contact-text h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.contact-button {
+    background-color: #133E87;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.contact-button:hover {
+    background-color: #0a2861;
+}
